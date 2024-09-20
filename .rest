@@ -1,0 +1,18 @@
+###
+POST http://localhost:5000/register 
+Content-Type: application/json
+
+{
+"username": "aker", "password": "123"
+}
+
+###
+POST http://localhost:5000/login 
+Content-Type: application/json
+
+{
+"username": "aker", "password": "123"
+}
+###
+GET http://localhost:5000/currentUser 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmViODRkNmI5OGNiODFkOTBjNDBkY2QiLCJpYXQiOjE3MjY3MTExMjgsImV4cCI6MTcyNjcxNDcyOH0.kE7NqgSrcCcUoFidW8sRvOsM8so_3b_2qwTTuC-Wagc
